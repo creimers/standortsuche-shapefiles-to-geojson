@@ -1,0 +1,23 @@
+{
+  "name": "ausgestrahlt-standortsuche-shp-to-geojson",
+  "version": "1.0.0",
+  "description": "https://www.ausgestrahlt.de/themen/atommuell/hochradioaktiv/endlagersuche/karte/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/creimers/standortsuche-shapefiles-to-geojson.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/creimers/standortsuche-shapefiles-to-geojson/issues"
+  },
+  "homepage": "https://github.com/creimers/standortsuche-shapefiles-to-geojson#readme",
+  "dependencies": {
+    "@mapbox/geojson-merge": "^1.1.1",
+    "simplify-geojson": "^1.0.4"
+  }
+}
